@@ -1,9 +1,9 @@
 {
-    "name": "shigong",
+    "name": "auth_model\doctorquan",
     "description": "通用权限管理Model包",
     "authors": [
         {
-            "name": "shigong"
+            "name": "doctorquan"
         }
     ],
     "license": "none",
