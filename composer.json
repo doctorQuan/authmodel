@@ -1,6 +1,6 @@
 {
     "name": "auth_model/doctorquan",
-    "description": "通用权限管理Model包,数据库配置看教程",
+    "description": "通用权限管理Model包,数据库配置看教程.",
     "authors": [
         {
             "name": "doctorquan"
