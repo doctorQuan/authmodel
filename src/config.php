@@ -1,10 +1,10 @@
 <?php
   $GLOBALS['elf_mysql'] = array(
-      'MYSQL_HOST' => '120.78.228.121',
+      'MYSQL_HOST' => '127.0.0.1',
       'MYSQL_PORT' => '3306',
-      'MYSQL_USER' => 'yang_yuan',
-      'MYSQL_DB'   => 'yang_yuan',
-      'MYSQL_PASS' => 'yy123456',
+      'MYSQL_USER' => 'root',
+      'MYSQL_DB'   => 'thinkphp5',
+      'MYSQL_PASS' => '',
       'MYSQL_CHARSET' => 'utf8',
     );
   $GLOBALS['log_keep_day'] = 200;

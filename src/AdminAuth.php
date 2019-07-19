@@ -59,9 +59,9 @@ class AdminAuth extends Admin
       return false;
     }else{
       //操作日志
-      $data = json_encode(arg());
+      $data = json_encode($_REQUEST);
       $AdminUserLog=new AdminUserLog();
-      $AdminUserLog->addLog($_SESSION['user']['id'],$module,$controller_name,$action_name,$data);
+      $AdminUserLog->addLog($user_id,$module,$controller_name,$action_name,$data);
       return true;
     }
   }

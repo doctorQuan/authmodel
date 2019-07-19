@@ -7,7 +7,7 @@ class AdminUserLog extends Admin{
      *  【日记添加】
      */
     public function addLog($user_id,$moudle,$controller,$action,$data){
-        $month_age = date("Y-m-d H:i:s",time()-60*60*24*$GLOBALS['elf_page_size']); //三十天前
+        $month_age = date("Y-m-d H:i:s",time()-60*60*24*30); //三十天前
         $this->execute("delete from sys_user_log where create_time<'".$month_age."'");
         $this->execute("OPTIMIZE TABLE sys_user_log");
 

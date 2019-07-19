@@ -176,11 +176,11 @@ class AdminMenu extends Admin
     */
     if(@$array['name']){
       $name_arr=$this->myUnserialize($array['name']);
-      $array['name']=$name_arr[$_SESSION['lang']];
+      $array['name']=$name_arr['cn'];
     }else{
       foreach($array as $key=>$one){
         $name_arr=$this->myUnserialize($array[$key]['name']);
-        $array[$key]['name']=$name_arr[$_SESSION['lang']];
+        $array[$key]['name']=$name_arr['cn'];
       }
     }
     return $array;
